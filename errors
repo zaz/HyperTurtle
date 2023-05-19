@@ -1,0 +1,14 @@
+#<Thread:0x0000776de1aa1308 /home/user/.local/share/gem/ruby/3.1.0/gems/jekyll-4.3.2/lib/jekyll/commands/serve/live_reload_reactor.rb:39 run> terminated with exception (report_on_exception is true):
+/home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:531:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:531:in `start_server'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/jekyll-4.3.2/lib/jekyll/commands/serve/live_reload_reactor.rb:45:in `block (2 levels) in start'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/jekyll-4.3.2/lib/jekyll/commands/serve/live_reload_reactor.rb:42:in `block in start'
+bundler: failed to load command: jekyll (/home/user/.local/share/gem/ruby/3.1.0/bin/jekyll)
+/home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:531:in `start_tcp_server': no acceptor (port is in use or requires root privileges) (RuntimeError)
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:531:in `start_server'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/jekyll-4.3.2/lib/jekyll/commands/serve/live_reload_reactor.rb:45:in `block (2 levels) in start'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run_machine'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/eventmachine-1.2.7/lib/eventmachine.rb:195:in `run'
+	from /home/user/.local/share/gem/ruby/3.1.0/gems/jekyll-4.3.2/lib/jekyll/commands/serve/live_reload_reactor.rb:42:in `block in start'
