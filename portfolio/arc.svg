@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64">
+	<defs>
+		<!--
+			32 - sin(0.5rad) * 28  ==  18.5760849191
+			32 + cos(0.5rad) * 28  ==  56.5723117329
+			sin(0.5rad) * 28 * 2  ==  26.8478301618
+		-->
+		<path id="arc" d="M18.58,56.57 a28,28 0 1,1 26.85,0" style="marker-end:url(#dot);marker-start:url(#dot);stroke-linecap:round;stroke-width:2;fill:none"/>
+		<!-- TODO: Define font for lambda character -->
+		<text id="lambda" x="32" y="50" text-anchor="middle" style="fill:#dc593a;stroke:#6e2c1d;font-family:Sans;font-size:50px">λ</text>
+	</defs>
+	<use xlink:href="#arc" x="-1" style="stroke:#dc593a"/>
+	<use xlink:href="#arc" style="stroke:#6e2c1d"/>
+	<use xlink:href="#lambda" x="-1"/>
+	<use xlink:href="#lambda"/>
+</svg>
